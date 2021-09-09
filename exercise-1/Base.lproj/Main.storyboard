@@ -30,11 +30,17 @@
                                 <state key="normal" title="Show message">
                                     <color key="titleColor" red="0.95378180749999997" green="0.27557590248379987" blue="0.040852340606217286" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ROh-ck-grL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.80258987863855247" green="0.9537818075455341" blue="0.77464336803460743" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Vlf-BF-xCC" id="8g0-jZ-WK2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
